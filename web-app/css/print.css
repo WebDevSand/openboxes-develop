@@ -1,0 +1,102 @@
+body{
+    margin: 15px;
+}
+/*
+h1 { font-size: 32px; }
+h2 { font-size: 29px; }
+h3 { font-size: 27px; }
+h4 { font-size: 23px; }
+h5 { font-size: 17px; }
+h6 { font-size: 14px; }
+*/
+h1 { font-size: 17px;font-weight: bold; }
+h2 { border-top: 1px solid lightgrey; }
+h3 { font-size: 17px;font-weight: normal; line-height: 20px; }
+
+.header{
+    margin: 10px;
+}
+
+.canceled {
+    color: lightgrey;
+    text-decoration: line-through;
+}
+
+.odd {
+    background: #f7f7f7; !important;
+}
+.even {
+	background: #fff; !important;
+}
+
+
+#logo {
+    width: 20px;
+    height: 20px;
+}
+
+#signature-table {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#signature-table tr { border-bottom: 1px solid lightgrey;  }
+
+.signature-table {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 100px;
+}
+.signature-table tr, .signature-table td { border-top: 1px solid lightgrey; height: 60px; }
+
+#details-table{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+#details-table tr { border-bottom: 1px solid lightgrey;}
+
+
+#requisition-items{
+    margin-bottom: 10px;
+}
+
+#requisition-items {
+    border-top: 2px solid lightgrey;
+    border-bottom: 2px solid lightgrey;
+    border-left: 2px solid lightgrey;
+}
+
+#requisition-items tr {
+    height: 50px;
+}
+
+#requisition-items td, #requisition-items th {
+    border-right: 2px solid lightgrey;
+    border-bottom: 2px solid lightgrey;
+}
+
+#packinglist-items tbody tr {
+    border-bottom: 0px lightgrey solid;
+}
+
+#comment-box{
+    border: 1px solid lightgrey;
+    height: 100px;
+    margin-top:10px;
+}
+
+@media print {
+	#print-button { display:none; }
+	#print-header { display: none; }
+}
+
+table {border-collapse: collapse; page-break-inside: auto;}
+thead {display: table-header-group;}
+tr {page-break-inside: avoid; page-break-after: auto;}
+td {vertical-align: top;}
+
+.lotNumber { font-family: "Courier New"; vertical-align: middle; text-transform: uppercase; }
+.binLocation { font-family: "Courier New"; vertical-align: middle; text-transform: uppercase; }

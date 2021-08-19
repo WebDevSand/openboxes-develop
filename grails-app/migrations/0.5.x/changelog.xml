@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog/1.9"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9 http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd">
+
+	<include file="0.5.x/alter-table-engine-innodb.xml"/>
+	<include file="0.5.x/rename-request-to-requisition.xml"/>
+	<include file="0.5.x/add-requested_delivery_date-to-requisition.xml"/>
+	<include file="0.5.x/add_comment_recipient_substitutable_to_requisition_item.xml"/>
+	<include file="0.5.x/modify-column-product-description.xml"/>
+	<include file="0.5.x/add-order_index-to-requisition_item.xml"/>
+	<include file="0.5.x/add-product-tag.xml"/>
+	<include file="0.5.x/add-requisition-item-idx.xml"/>
+    <include file="0.5.x/add-picklist_items_idx.xml"/>
+    <include file="0.5.x/rename-picklist_item_idx-to-picklist_items_idx.xml"/>
+    <include file="0.5.x/rename-request_id-to-requisition_id-in-picklist.xml"/>
+    <include file="0.5.x/add-requisition_type-to-requisition.xml"/>
+    <include file="0.5.x/change-ROLE_USER-to-ROLE_BROWSER.xml"/>
+    <include file="0.5.x/add-location_type-data.xml"/>
+    <include file="0.5.x/add-location_role.xml"/>
+    <include file="0.5.x/add-product-fields.xml"/>
+    <include file="0.5.x/add-inventory-level-max-quantity.xml"/>
+    <include file="0.5.x/add-inventory-level-bin-location.xml"/>
+    <include file="0.5.x/add-transaction-number.xml"/>
+    <include file="0.5.x/add-product-booleans.xml"/>
+    <include file="0.5.x/add-requisition-item-canceled-quantity.xml"/>
+    <include file="0.5.x/add-requisition-to-transaction.xml"/>
+    <include file="0.5.x/create-table-inventory-snapshot.xml"/>
+    <include file="0.5.x/create-table-localization.xml"/>
+    <include file="0.5.x/add-column-product-price-per-unit.xml"/>
+    <include file="0.5.x/add-column-requisition-commodity-class.xml"/>
+    <include file="0.5.x/add-column-requisition-published-and-template.xml"/>
+    <include file="0.5.x/add-column-category-is-root.xml"/>
+    <include file="0.5.x/add-column-requisition-item-parent-requisition-item.xml"/>
+    <include file="0.5.x/add-unique-constraint-product-code.xml"/>
+    <include file="0.5.x/add-column-requisition-item-product-package.xml"/>
+    <include file="0.5.x/add-column-tag-is-active.xml"/>
+    <include file="0.5.x/insert-role-assistant.xml"/>
+    <include file="0.5.x/add-column-product-reconditioned.xml"/>
+    <include file="0.5.x/add-column-requisition-item-requisition-item-type.xml"/>
+    <include file="0.5.x/add-column-requisition-item-quantity-approved.xml"/>
+    <include file="0.5.x/add-column-requisition-item-audit-fields.xml"/>
+    <include file="0.5.x/add-column-requisition-verified-by.xml"/>
+    <include file="0.5.x/add-column-requisition-reviewed-by.xml"/>
+    <include file="0.5.x/add-column-requisition-delivered-by.xml"/>
+    <include file="0.5.x/add-column-requisition-received-by.xml"/>
+    <include file="0.5.x/add-column-requisition-checked-by.xml"/>
+    <include file="0.5.x/add-column-requisition-issued-by.xml"/>
+    <include file="0.5.x/create-table-indicator.xml"/>
+    <include file="0.5.x/add-column-location-sort-order.xml"/>
+    <include file="0.5.x/add-inventory-level-abc-class.xml"/>
+    <include file="0.5.x/add-column-requisition-item-children.xml"/>
+    <include file="0.5.x/add-column-product-package-price.xml"/>
+    <include file="0.5.x/add-product-synonyms.xml"/>
+    <include file="0.5.x/modify-column-product-price-per-unit.xml"/>
+    <include file="0.5.x/modify-column-product-package-price.xml"/>
+    <include file="0.5.x/add-column-synonym-locale.xml"/>
+    <include file="0.5.x/add-column-inventory-snapshot-date.xml"/>
+    <include file="0.5.x/add-column-inventory-level-preferred.xml"/>
+    <include file="0.5.x/add-column-address-description.xml"/>
+
+    <!--
+    <include file="0.5.x/create-table-reason-code.xml"/>
+    -->
+</databaseChangeLog>

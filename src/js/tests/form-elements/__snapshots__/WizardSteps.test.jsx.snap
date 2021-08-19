@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WizardSteps renders correctly 1`] = `
+<div
+  className="steps-box d-print-none"
+>
+  <div
+    className="steps d-flex flex-wrap"
+  >
+    <div
+      className="step-container"
+    >
+      <button
+        className="step"
+        disabled={true}
+        onClick={[Function]}
+      >
+        <i
+          aria-hidden="true"
+          className="fa 
+                 
+                fa-check-circle-o 
+                fa-circle-o disabled"
+        />
+        <span
+          className="step-text"
+        >
+          Create
+        </span>
+      </button>
+    </div>
+    <div
+      className="step-container"
+    >
+      <button
+        className="step"
+        disabled={true}
+        onClick={[Function]}
+      >
+        <i
+          aria-hidden="true"
+          className="fa 
+                fa-circle-o 
+                 
+                "
+        />
+        <span
+          className="step-text"
+        >
+          Add items
+        </span>
+      </button>
+    </div>
+    <div
+      className="step-container"
+    >
+      <button
+        className="step"
+        disabled={true}
+        onClick={[Function]}
+      >
+        <i
+          aria-hidden="true"
+          className="fa 
+                 
+                 
+                fa-circle-o disabled"
+        />
+        <span
+          className="step-text"
+        >
+          Edit
+        </span>
+      </button>
+    </div>
+    <div
+      className="step-container"
+    >
+      <button
+        className="step"
+        disabled={true}
+        onClick={[Function]}
+      >
+        <i
+          aria-hidden="true"
+          className="fa 
+                 
+                 
+                fa-circle-o disabled"
+        />
+        <span
+          className="step-text"
+        >
+          Pick
+        </span>
+      </button>
+    </div>
+    <div
+      className="step-container"
+    >
+      <button
+        className="step"
+        disabled={true}
+        onClick={[Function]}
+      >
+        <i
+          aria-hidden="true"
+          className="fa 
+                 
+                 
+                fa-circle-o disabled"
+        />
+        <span
+          className="step-text"
+        >
+          Send
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;

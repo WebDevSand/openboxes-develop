@@ -1,0 +1,1512 @@
+/* Custom css
+-------------------------------------------------------------*/
+/* used to remove the 10px margin that yui adds by default */
+#doc3 {
+	margin:auto;
+}
+label.error { 
+	display: block;
+}
+.hidden { 
+	display: none;
+}
+.ui-state-highlight { 
+	font-weight: bold; 
+	color: black; 
+}
+.ui-datepicker-trigger {
+	position: relative; left: -16px; top: -1px;
+}
+.buttons { 
+	padding-top: 10px; 
+	/*border-top: 3px solid lightgrey;*/
+	text-align: center; 
+	padding: 10px; 
+}
+
+button.action-btn, button.previous, button.next { 
+	padding: 0px;
+}
+
+.sorthandle {
+	background-image:url(../images/grippy.png);
+	cursor:move;
+	display:inline-block;
+	height:100%;
+	margin-bottom:-6px;
+	min-height:24px;
+	width:8px;
+}
+
+
+
+.button { 
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	padding: 2px;
+	margin: 5px;	
+	border: 1px solid #aaa;
+}
+.category-selector { 
+	padding: 1px;
+	
+}
+
+.action-btn { 
+	width: 40px;
+	margin: 1px;
+}
+#banner { 
+	padding: 0px; 
+}
+.black-top { 
+	border-top: 1px solid black;
+}
+.capitalize { 
+	text-transform: capitalize;
+}
+
+.red { 
+	background-color: red;
+	color: white;
+	height: 2em;
+}
+.blue { 
+	background-color: blue; 
+	color: white;
+	height: 2em;
+}
+
+.box { 
+	border: 1px solid lightgrey;
+	margin: 1px;
+	background-color: #fcfcfc;
+	padding: 7px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.box-white { 
+	border: 1px solid lightgrey;
+	margin: 1px;
+	background-color: white;
+	padding: 7px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.box-slim { 
+	border: 1px solid lightgrey;
+	margin: 1px;
+	
+}
+
+.wizard-box { 
+	border: 1px solid lightgrey;
+	margin: 1px;
+	background-color: white;
+	padding: 7px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	height: 25px;
+}
+
+
+.padded { 
+	padding: 25px;	
+}
+.smpad { 
+	padding: 5px;
+}
+
+.hidden { 
+	display: none;
+}
+
+.total { 
+	/*background-color: #f7f7f7;*/	
+}
+.start { 
+	border-right: 3px solid lightgrey;	
+}
+.end { 
+	border-left: 3px solid lightgrey;
+}
+.border-right { 
+	border-right: 1px solid lightgrey;
+}
+.border-left { 
+	border-left: 1px solid lightgrey;
+}
+
+
+.debit { 
+	/*color: blue;*/ 
+}
+
+.debit:before { 
+	content: '(';
+}
+.debit:after { 
+	content: ')';
+}
+
+.transaction-type-debit { }
+.transaction-type-credit { }
+
+
+.nowrap { 
+	white-space: nowrap;
+}
+
+/* Action Menu Items */
+.actions .action-menu-info a:hover { 
+	cursor: pointer;
+}
+.actions .action-menu-item { 
+	border: 0px solid black;
+	margin: 0px;
+	padding: 0px;
+}
+.actions .action-menu-item a { 
+	display: block; 
+	padding: 5px;
+}
+.actions .action-menu-item a:hover { 
+	display: block; 
+	background-color: lightgrey;
+	padding: 5px;
+	text-decoration: none;
+}
+
+.megaButton a,
+.megaButton a:visited { 
+	text-decoration: none;
+	padding: 10px;
+	display: block;
+	color: #333;
+}
+
+.megaButton:hover {
+	background-color: lightgrey;
+}
+
+
+.mm-content-base { padding: 0px; margin: 0px; }
+
+/* Flow Header */
+.currentState { font-weight: bold; background-color: #eee; color: blue; } 
+.circle {
+  display:inline;
+  padding-left:4px;
+  padding-right:4px;
+  color: white;
+  background: lightgrey;
+  -moz-border-radius:100px;
+  -webkit-border-radius:100px;
+}
+
+.circle a {
+  font-size:9px;
+  text-decoration:none;
+  color: white;
+  position:relative; top:-2px;
+}
+.currentState > .circle { background-color: blue; }
+.currentState > .circle a { font-weight: bold; }  
+
+.numberCircle {
+    -webkit-border-radius: 999px;
+    -moz-border-radius: 999px;
+    border-radius: 999px;
+    behavior: url(PIE.htc);
+
+    width: 12px;
+    height: 12px;
+    padding: 4px;
+
+    background: lightyellow;
+    border: 1px solid #666;
+    color: #666;
+    text-align: center;
+
+    font: 10px Arial, sans-serif
+}
+
+
+/* Product Details box */
+/*#product-details-box { width: 260px;}*/
+#product-details-box span.name {   } 
+#product-details-box span.value { font-size: 1.0em; } 
+#product-details-box span.name:after { content: ": " }
+#product-details-box th { color: lightgrey; } 
+#product-details-box fieldset table td { padding: 6px; } 
+.product-details { height: 45px; line-height: 2px; }
+/*
+.product-details .label { width: 80px; }
+
+.product-details .value { width: 150px; }
+*/
+.product-details .button { width: 20px; }
+/* Text Alignment classes */
+.right { text-align: right; } 
+.left { text-align: left; }
+.center { text-align: center; }
+
+/* Vertical Alignment classes */
+.top { vertical-align: top; }
+.bottom { vertical-align: bottom; }
+.middle { vertical-align: middle; }
+
+/* temporarily hide the nav bar until we figure out whether we want to keep it or not */
+.nav { display: none; } 
+
+li.ui-menu-item { text-align: left; font-weight: bold; }
+h3 { 
+	color: black;
+	font-size: 14px;
+	vertical-align: middle;
+	padding: 5px 0px 2px;
+	margin: 0px;
+	margin-bottom: 5px;
+	
+
+	/*color: #008000;*//*green */
+} 
+h3.ui-state-active { background-color: #f7f7f7; }  /* #F8F7EF */
+
+.body { 
+	/*margin-right: 5px;*/
+	/*padding: 0px 0 10px 0;*/
+	
+}
+
+/* Added to fix an issue with being able to select actions from the action menu at the bottom of pages */
+/* Fixed the action menu (when menu runs off page). */
+
+body { 
+	text-align: left; 
+	padding-bottom: 50px;
+	font-family: "Lucida Grande", arial, verdana;	
+}
+
+#content { 
+	padding: 5px 35px 5px 5px;
+}	
+
+#dashboard { 
+	margin: 0px; 	
+}
+#productDetails { 
+	width: 250px;
+}
+.actionsMenu { 	
+	text-align: left; 
+	padding: 5px;
+}
+.actionsMenu a { 
+	padding-left: 2px;
+}
+.actionsMenu ul li { 
+	display: inline;
+	padding-right: 15px;
+}
+
+.widget-large { border: 1px solid lightgrey; margin: 5px; }
+.widget-small { border: 1px solid lightgrey;  margin: 5px; }    		
+.widget-header { background-color: #FFF; margin: 1px; font-weight: bold; font-size: 110%;} 
+.widget-content { margin: 10px; } 
+.widget-small .widget-content {  font-size: 110%;} 
+.widget-content tr { height: 30px; }
+.widget-content td,th { vertical-align: middle; }
+img { 
+	vertical-align: middle;
+}
+
+a:hover { 
+	/*font-weight: bold;*/
+}
+.fade { 
+	color: #aaa;	
+}
+
+#logo { 
+	padding: 0px;	
+}
+
+#chooseLocation { 
+	width: 500px;
+	position: absolute;
+	top: 100px;
+	left: 50%;
+	margin-left: -250px;
+}
+#chooseLocationSelect {
+	max-height: 400px; 
+	overflow: auto;
+}
+
+#loginForm { 
+	width:500px;
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	margin-left: -250px;
+}
+#loginFormBox { 
+	border: 1px solid lightgrey;	
+	padding: 20px;
+}
+	
+.loginField { 
+	font-weight: none;
+	
+}
+	
+#signupForm { 
+	width:500px;
+	position: absolute;
+	top: 50px;
+	left: 50%;
+	margin-left: -250px;
+}
+
+
+label, input, td, th { 	
+	/*font-size: 10pt;*/
+}
+
+th { 
+	border-top: 0px;
+	border-bottom: 3px solid lightgrey;
+	/*background-color: white;*/
+}
+
+tfoot th, tfoot td { 
+	border-top: 2px solid lightgrey;
+	border-bottom: 0px;
+}
+
+
+.toggle-button, .expandable { 
+}
+.toggleable { 
+	display: none;
+}
+
+/* Shipment summary add padding around To/From addresses */
+#summary td { 
+	padding: 15px;	
+}
+
+.tab { 
+	padding: 15px;	
+}
+.tabOuter { 
+	
+	background-color: #eee;
+}
+
+/* IMPORTANT: not sure why this works, but mis-aligns the menu */
+.yui-skin-sam { 
+	font: 11px/1.231 arial,helvetica,clean,sans-serif;
+}
+
+table.withoutBorder {
+    border: 0px solid #ccc;
+    width: 100%
+}
+
+table.container { 
+	width: 100%;	
+}
+
+table#listOutgoing { 
+	border: 0px;
+}
+
+table#listOutgoing td { 
+	border: 0px;	
+}
+
+table#listOutgoing th { 
+}
+
+table.small { 
+	/*width: 0%;*/
+	display: inline;
+	
+}
+
+
+.five { 
+	width: 5%;
+}
+.tenth { 
+	width: 10%;
+}
+.quarter { 
+	width: 25%;
+}
+.full { 
+	width: 100%;
+}
+.right { 
+	text-align: right;
+}
+.left { 
+	text-align: left;
+}
+.center { 
+	text-align: center;
+}
+	
+.dialog td { 
+	padding: 10px;
+}
+
+.small {
+	font-size:.7em;
+}
+
+.large {
+	font-size:1.1em;
+}
+
+.menu { 
+	padding: 0px; 
+	border-right: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	border-top: 1px solid #eee;
+}  
+.menu .menu-heading { 
+	font-size: 1.25em;
+	line-height: 2em; 
+	vertical-align: middle;
+	padding: 0px 0px 2px 25px; 
+	display: block; 
+	background-color: #fafafa /*#F8F7EF*/; 
+}
+.menu .menu-subheading {
+	vertical-align: middle;
+	padding: 2px 0px 2px 15px; 
+	display: block; 
+	font-weight: bold;
+}
+.menu .menu-section { 
+	padding-top: 5px;
+	padding-right: 0px; 
+	padding-bottom: 0px;
+}
+.menu .menu-section ul { 
+	padding-top: 0px; 
+	padding-bottom: 5px;
+}
+input.button { 
+	vertical-align: middle;
+	border: 0px;
+	margin: 0px;
+}
+
+.menu .menu-section ul li { 
+    /*display: block;
+   padding: 0px 0px 2px 0px;
+    cursor: pointer;*/
+}
+.menu .menuSection a { 
+	font-weight: none;
+	text-decoration: none;
+}
+.menu .menuSection a:hover { 
+	text-decoration: underline;
+	font-weight: none;
+}
+.menu .menuSection a:visited { 
+	text-decoration: none;
+	font-weight: none;
+}
+.ui-widget-content a { 
+	color: #666;
+}
+.ui-widget-content a:hover { 
+	text-decoration: underline; 
+}
+
+.nav { 
+	margin: 0px;
+	margin-bottom: 1px;
+	padding: 10px;
+	background-color: #F7F7F7;
+}
+.buttonBar { 
+	background-color: white;
+	padding: 10px;
+	text-align: left;
+}
+
+#resultSummary { 
+	font-size: 9pt;	
+}
+label { 
+	margin-right: 10px;
+	color: #666;
+	font-weight: bold;
+}
+label.required { 
+	color: red;
+}
+label.optional { 
+	color: #AAA;
+}
+label.clear { 
+	display: block;
+}
+
+/* TODO figure out what this was meant for */
+h2 {	
+	font-size: 1.2em;
+	background-color: #F7F7F7;
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+}
+.category-header {	
+	font-size: 1.2em;
+	text-align: left;
+	background-color: #f7f7f7;
+	border-top: 1px solid lightgrey;
+	vertical-align: middle;
+}
+
+
+/*
+tr.hasRelated { 
+	border-top: 4px solid #E5ECF9;
+	border-left: 4px solid #E5ECF9;
+	border-right: 4px solid #E5ECF9;
+	border-bottom:4px solid #E5ECF9;
+}
+*/
+
+tr.hideRelated { 
+}
+
+tr.showRelated { 
+	background-color: #E5ECF9;	
+	border-top: 4px solid #E5ECF9;
+	border-left: 4px solid #E5ECF9;
+	border-right: 4px solid #E5ECF9;
+	border-bottom:4px solid #E5ECF9;	
+}
+
+tr.hideRelated td { }
+tr.showRelated td { font-weight: bold;}
+
+
+tr.expanded { 
+	background-color: #E5ECF9;
+}
+
+tr.isRelated { 
+	border-left: 4px solid #E5ECF9;
+	border-right: 4px solid #E5ECF9;
+}
+
+
+tr.lastRelated {
+  border-bottom-color:#E5ECF9;
+  border-bottom-style:solid;
+  border-bottom-width:4px;
+}
+
+
+
+h4 { 
+	font-size: 1.2em;
+	padding: 10px;
+}
+
+/*
+h2 {
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-size: 1.2em;
+	border-bottom: 1px solid #ddd;
+	border-top: 1px solid #ddd;
+	background-color: #EBF1F7;
+	font-size: 135%;
+	line-height: 2;
+	padding: 0 0 0 10px;
+}
+*/
+
+
+.logo { 
+	font-size: 2em;	
+	font-weight: bold;
+}
+
+
+.title {
+    line-height: 1.5em;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #666;
+}
+.subtitle {
+    font-size: 1.2em;
+    line-height: 1.2em;
+    font-weight: bolder;
+    color: #666;
+}
+
+.buttons { 
+	margin-top: 1px;	
+}
+
+/* TODO figure out if we need to keep this */
+#pageBody {
+	margin-left: 280px;
+	margin-right: 20px;
+	padding: 1px;
+}
+
+#pageTitle { 
+	/*border-top: 1px solid lightgrey;
+	background-color: #f0f0f0;
+	background-color: #525D76;*/
+	border-bottom: 1px dotted #525D76; 
+	/*margin-bottom: 10px;
+	
+	padding: 5px;
+	color: white;
+	*/
+}
+
+.page-header { 
+	margin: 10px 0px 0px 25px;
+	vertical-align: middle;
+
+}
+
+.page-actions { 
+	vertical-align: middle;
+	float: left;
+	width: 55px;
+}
+
+.page-title { 
+	margin-left: 15px;
+}
+
+
+.section { 	
+	/*
+	padding-left: 10px; 
+	padding-bottom: 10px; */
+}
+	
+
+
+/* stole from blueprint screen.css */
+hr {background:#ddd;color:#ddd;clear:both;float:none;width:100%;height:.1em;margin:0 0 0em 0em;border:none;}
+hr.space {background:#fff;color:#fff;}
+
+
+/* Login information in banner
+-------------------------------------------------------------*/
+/* 	NOTE: I cannot get the login info to move down to the "bottom", 
+	so I was using absolute positioning at one point (might be gone now)  */
+ 	
+#hd { 
+	vertical-align: bottom;		
+	margin: 5px;	
+	/*
+    border-bottom: 1px solid lightgrey;
+	background-color: white;
+	*/
+}
+
+
+ul.treeList { 
+	list-style-type: square; 
+}
+ul.treeList li ul li { 
+	padding-left: 15px;
+}
+
+#loggedIn { 	
+	text-align: right;
+	margin: 0px;
+	font-size: 1.2em;
+	border: 0px solid #000; 
+	/*padding: 5px 10px 10px 15px;*/  	
+}
+
+
+#loggedIn ul {
+    list-style:none;
+    margin: 0;
+    padding: 0;
+}
+#loggedIn ul li  {
+    display: inline;
+    margin: 0 0px;
+}
+
+.pageTitle { 
+	margin:  10px 0 0 15px;	
+}
+
+/* breadcrumb 
+-------------------------------------------------------------*/
+.breadcrumb {
+    font: 11px Arial, Helvetica, sans-serif;
+    background-image:url('../images/bc_bg.png'); 
+    background-repeat:repeat-x;
+    height:30px;
+    line-height:30px;
+    color:#9b9b9b;
+    border-bottom:solid 1px #cacaca;
+    width:100%;
+    overflow:hidden;
+    margin:0px;
+    padding:0px;
+}
+
+.breadcrumb li {
+    list-style-type:none;
+    float:left;
+    padding-left:10px;
+}
+
+.breadcrumb a {
+    height:30px;
+    display:block;
+    background-image:url('../images/bc_separator.png'); 
+    background-repeat:no-repeat; 
+    background-position:right;
+    padding-right: 15px;
+    text-decoration: none;
+    color:#454545;
+}
+
+.home {
+    border: none;
+    margin: 8px 0px;
+}
+
+.breadcrumb a:hover {
+    /*color:#35acc5;*/
+    text-decoration: underline;
+}
+
+
+/* Bubble with an isoceles triangle
+------------------------------------------ */
+
+.triangle-isosceles {
+   position:relative;
+   padding:15px;
+   margin:1em 0 3em;
+   color:#000;
+   background:#f3961c;
+
+   /* css3 */
+   -moz-border-radius:10px;
+   -webkit-border-radius:10px;
+   border-radius:10px;
+   background:-moz-linear-gradient(top, #f9d835, #f3961c);
+   background:linear-gradient(top, #f9d835, #f3961c);
+}
+
+/* creates triangle */
+.triangle-isosceles:after {
+   content:"";
+   display:block; /* reduce the damage in FF3.0 */
+   position:absolute;
+   bottom:-15px;
+   left:50px;
+   width:0;
+   border-width:15px 15px 0;
+   border-style:solid;
+   border-color:#f3961c transparent;
+}
+
+/* megamenu 
+-------------------------------------------------------------*/
+.megamenu a:hover { 
+	
+}
+
+ul.megamenu a.mm-item-link:link, ul.megamenu a.mm-item-link:visited {
+	padding: 7px 15px;
+}        	
+
+ul.megamenu {
+	padding: 0;
+	margin: 0;
+}
+
+/* not sure if these are needed any longer, so we should look into getting rid of these 
+-------------------------------------------------------------*/
+#footer {
+   position:absolute;
+   vertical-align: middle;
+   border-top: 1px solid #aaa;
+   bottom: 0px;
+   margin-top: 150px;
+   padding-top: 5px;
+   width:100%;
+   text-align: center;
+   height: 20px;   /* Height of the footer */
+   background: #fff;
+}
+
+#header {
+	vertical-align: middle;
+	padding: 2px;
+
+}
+
+
+
+
+/*
+-------------------------------------------------------------*/
+
+div.message {
+	/*font-size: 125%*/
+}
+
+div.errors {
+    margin: 10px 0 5px 0;
+    padding: 5px 0 5px 0;    
+    /*font-size: 125%*/
+}
+
+
+
+div#dashboard li { 
+	margin-top: 10px;
+}
+	
+
+.listcontainer { 
+	margin-bottom: 1em;
+	/*overflow: hidden;*/
+	
+}
+
+.list {
+	list-style-type: none;
+	/*
+	margin: 10px;
+	padding: 10px;*/
+}
+
+.list li {
+	border-left: 1px solid #000;
+	float: left;
+	padding: 5px 10px 5px 10px;
+	/*margin: 0 .5em 0 -.5em;*/
+	/*padding: 0 .75em 0 .75em;*/
+}
+
+.list li.first { 
+	border-left: 0px;
+}
+
+.list .active { 
+	font-weight: bold;	
+	background-color: #ccc;
+}
+.list li { 
+	background-color: #eee;
+}
+
+.prop-multi { 
+	padding-left: 100px;
+}
+
+.prop { 
+	border-top: 1px dotted #ccc;	
+	
+}
+
+.prop .first { 
+	border-top: 0px;	
+}
+
+.prop .name { 
+	width: 10%;
+	background-color: #F7F7F7;
+	text-align: right; 
+}
+
+.prop .label { 
+	width: 45%;
+}
+
+.label label:after { 
+	content: ':';
+}
+
+.prop .value { 
+	text-align:left;
+	/*width: 30%;*/
+	background-color: white;
+	vertical-align: top;
+	line-height: 1.5em;
+}
+/*
+.active	{ background-color: #6699CC; color: white;} 
+.inactive { background-color: #EEE; } 
+*/
+label { display: inline; text-decoration: none;}
+label.block { display: block;} 
+fieldset .prop { margin: 10px; }
+.radio { padding-left: 10px; } 
+#progressbar {  padding: 10px; margin: 10px; } 
+#progressbar .step { padding-left: 0; border: 1px solid #aaa; background-color: whitesmoke; padding: 10px;}
+.step.selected { font-weight: bold; text-decoration: underline; background-color: #f7f7f7 /*#F8F7EF*/; } 
+span.right { float: left; } 
+span.left { width: 10%;  float: left; text-align: center; } 
+#wizard { }
+
+.actions { cursor: pointer; position: absolute; z-index:999; background-color: #f5f5f5; border: 1px solid lightgrey; padding: 0px; display: none; min-width: 200px; }
+.action-menu { cursor: pointer; } 
+.action-menu { padding: 0; }
+.action-menu-root { margin: 0px; } 
+.action-menu-item { margin: 0px; padding: 3px; }
+.filter-list-item { margin: 10px;  } 
+.document-list-item { margin: 1px; }
+
+.details { cursor: pointer; position: absolute; z-index:999; background-color: white; border: 1px solid lightgrey; padding: 10px; display: none; } 
+
+.selected { 
+	font-weight: bold;		
+}
+select{ padding: 3px; }
+.tabSelected { 
+text-align: center;
+background-color: white; 
+border: 1px solid black;
+border-bottom: hidden; 
+}
+.tabDefault { 
+text-align: center;
+background-color: #f0f0f0; 
+border: 1px solid black; 
+border-bottom: 1px solid black; 
+border-top: 1px solid black; 
+border-right: 1px solid black; 
+border-left: 1px solid black;
+}
+.tabSpacer { 
+width: 3px;
+border-top: 0px;
+border-bottom: 1px solid black;
+}
+
+.verticalTabSelected { 
+text-align: left;
+background-color: white; 
+border: 1px solid #CCC;
+}
+
+.verticalTabDefault { 
+text-align: left;
+background-color: #f7f7f7; 
+border: 1px solid #CCC; 
+}
+
+.data td, .data th { 
+	vertical-align: middle; 
+}
+.data th { 
+	border: 0px; 
+} 
+.categoryBreadcrumb { 			
+	font-weight: bold; 
+	padding: 10px;
+	text-align: left;
+}
+.clear-all { 
+	padding: 5px; 
+	margin-left: 20px;
+}
+
+.filterRow {
+	font-size: 13px;
+	padding: 5px; 
+	margin: 5px;
+	white-space:nowrap;
+	background-color: #F7F7F7; /*#D8D8D8*/	
+}
+.filterTab {
+	border: 1px solid lightgrey;
+	padding: 5px;
+	margin-left:5px;
+}
+
+.filterTab a { 
+	padding: 0 2px 0 2px;
+	margin: 0px;
+}
+
+
+.paddingRow {
+	padding:2px;
+	border-top:none; border-right:none; border-left:none;
+	background-color:white;
+}
+.filterSelected {
+	background-color:white;
+	border-bottom:none;
+}
+.checked { 
+	background-color: #FFCC66; 
+} 
+.checkbox { 
+	border: 1px solid black;
+}
+.scrollTable {
+	border-collapse:collapse;
+}
+.searchable { 
+	font-size: 16px;
+	
+}
+
+img.photo {
+  width: 36px;
+  height: 36px;
+}
+img.photo_medium {
+  width: 6em;
+  height: 7.5em;
+}
+img.photo_small {
+  width: 4em;
+  height: 5em;
+}
+
+img.photo_tiny {
+  width: 16px;
+  height: 16px;
+}
+
+.readonly { 
+	color: grey;
+}
+
+.template-image { 
+	text-align: center
+}
+
+.template-name { 
+	text-align: center;
+	font-size: 13px;
+}
+
+
+.template-form div { 
+	padding: 5px;
+}
+
+.template-form label { 
+	display: inline-block;
+    width: 150px;	
+	text-align: right;
+}
+
+
+/**
+ * jquery tabs
+.ui-tabs { position: relative; padding: .2em; zoom: 1; }
+.ui-tabs .ui-tabs-nav { margin: 0; padding: .2em .2em 0; }
+.ui-tabs .ui-tabs-nav li { list-style: none; float: left; position: relative; top: 1px; margin: 0 .2em 1px 0; border-bottom: 0 !important; padding: 0; white-space: nowrap; }
+.ui-tabs .ui-tabs-nav li a { float: left; padding: .5em 1em; text-decoration: none; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected { margin-bottom: 0; padding-bottom: 1px; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor: text; }
+.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor: pointer; }
+.ui-tabs .ui-tabs-panel { display: block; border-width: 0; padding: 1em 1.4em; background: none; }
+.ui-tabs .ui-tabs-hide { display: none !important; }
+ */
+ 
+
+#transactionLogTabs {
+	background: transparent;
+	border: none;
+}
+#transactionLogTabs .ui-widget-header {
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #c0c0c0;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+}
+/*
+#transactionLogTabs .ui-state-default {
+	background: transparent;
+	border: none;
+}
+#transactionLogTabs .ui-state-active {
+	background: transparent url(../images/ui-tabs-arrow.png) no-repeat bottom center;
+	border: none;
+}
+*/
+.tabs .ui-state-default a {
+	color: #c0c0c0;
+}
+.tabs .ui-state-active a {
+	color: #459E00;
+}
+
+.tabs {
+	background: transparent;
+	border: none;
+}
+
+
+.tabs .ui-widget-header {
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #c0c0c0;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+}
+/*
+.tabs .ui-state-default {
+	background: transparent;
+	border: none;
+}
+.tabs .ui-state-active {
+	background: transparent url(../images/ui-tabs-arrow.png) no-repeat bottom center;
+	border: none;
+}
+*/
+.tabs .ui-state-default a {
+	color: #c0c0c0;
+}
+.tabs .ui-state-active a {
+	color: #459E00;
+	
+}
+
+.tabs .list, .tabs .tableScroll { 
+	border-bottom: 1px solid lightgrey;
+	
+}
+
+/* Image in Text Box */
+.globalSearch {
+	vertical-align: middle;
+	background:#FFFFFF url(../images/icons/silk/magnifier.png) no-repeat 4px 4px;
+	padding:4px 4px 4px 24px;
+	border:1px solid #CCCCCC;
+}
+
+span.tag { border: 1px solid #a5d24a; -moz-border-radius:2px; -webkit-border-radius:2px; display: block; float: left; padding: 5px; text-decoration:none; background: #cde69c; color: #638421; margin-right: 5px; margin-bottom:5px;font-family: helvetica;  font-size:13px;}
+span.tag a { font-weight: none; color: #82ad2b; text-decoration:none; font-size: 11px;  } 
+
+/*span.lotNumber { 1px solid #a5d24a; -moz-border-radius:2px; -webkit-border-radius:2px; display: block; color: black; font-weight: bold; margin-right: 5px; margin-bottom:5px;font-family: helvetica;  font-size:13px; }*/
+.lotNumber { font-family: "Courier New"; vertical-align: middle; text-transform: uppercase; }
+.genericName { text-transform: uppercase; }
+#more { background-color: #ddd; padding: 10px; }
+
+/*generic float*/
+div.left{
+    float: left;
+}
+div.right{
+    float: right;
+}
+div.clear {
+    clear: both;
+}
+
+/*requisition */
+
+#requisition-header{
+    padding: 0.5em;
+    margin-left: 0.5em;
+    /*margin-bottom: 2.0em*/
+}
+
+#requisition-header .title {
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 1em;
+    float: left;
+}
+
+#requisition-header .status, #requisition-header .time-stamp{
+    float: right;
+    font-size: 1.0em;
+    margin-left: 1.5em;
+}
+
+
+/*requisition item search auto complete*/
+.ui-autocomplete span.product-group{
+    font-style: italic;
+}
+
+.list-header {
+    padding-left: 10px;
+
+}
+
+
+.ui_datepicker{
+    background-image: url(../images/icons/silk/calendar.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+
+
+/*fix ui-validation error message styling issue*/
+.ui-validation label.error{
+  display: inline;
+  color: #EA5200;
+  border: 0px;
+  background: url(../images/icons/silk/exclamation.png) no-repeat center left;
+  padding-left: 16px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+  font-weight: bold;
+}
+
+.ui-validation-items label.error{
+  display: block;
+ }
+
+.ui-validation input.error, .ui-validation  select.error{
+  padding: 2px;
+  background-color: white;
+  border: 2px solid #EA5200;
+}
+
+
+/*process requisition item */
+.ui-accordion .ui-accordion-content { padding: 0; margin: 0; }
+.accordion-header {
+    padding: 10px;
+    background: #FCFCFC;
+    color: #1C94C4;
+}
+
+.accordion-header.ui-state-active {
+  background: #0099FF;
+  color: white;
+}
+
+
+.accordion-header .row-index {
+    width: 5%;
+    float: left;
+}
+
+.accordion-header .product-name {
+    width: 25%;
+    float: left;
+}
+
+
+
+.accordion-header .status {
+    width: 25%;
+    float: right;
+}
+
+.accordion-header .quantity {
+    width: 15%;
+    float: left;
+}
+
+.accordion-header .quantityPicked {
+    width: 15%;
+    float: left;
+}
+
+.accordion-header .quantityRemaining {
+    width: 15%;
+    float: left;
+}
+
+/*
+.requisition-status {
+    width: 16px;
+    height: 16px;
+}
+*/
+
+.substitution {
+    width: 16px;
+    height: 16px;
+}
+.substitution.ok {
+    background: url(../images/icons/silk/arrow_switch.png) no-repeat;
+}
+
+
+.requisition-status.Complete {
+    background: url(../images/icons/silk/flag_green.png) no-repeat;
+}
+
+.requisition-status.Incomplete {
+    background: url(../images/icons/silk/flag_red.png) no-repeat;
+  }
+
+.requisition-status.PartiallyComplete {
+    background: url(../images/icons/silk/flag_yellow.png) no-repeat;
+ }
+
+.accordion-content {
+    text-align: center;
+}
+
+.accordion-content .requisitionItemPicklist {
+  /*width: 80%;*/
+  padding: 5px;
+  /*border: 1px solid #eeeeee;*/
+  margin: 5px;
+}
+
+.accordion-content  .picklist-field{
+  margin-top: 3px;
+}
+
+.accordion-content .picklist-header {
+    background-color: #BEE7F7;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.accordion-content .product-name{
+    width: 30%;
+    float: left;
+}
+.accordion-content .lot{
+    width: 15%;
+    float: left;
+}
+
+.accordion-content .expiration-date{
+    width: 15%;
+    float: left;
+}
+
+.accordion-content .quantity-onhand{
+    width: 15%;
+    float: left;
+}
+
+.accordion-content .quantity-picked{
+    width: 25%;
+    float: left;
+}
+
+.accordion-content .quantity-picked input{
+    
+    text-align: center;
+    float: center;
+}
+
+#picklist{
+	width: 100%;
+}
+
+#picked-item-list {
+    margin-top: 2em;
+}
+
+#requisition-status-key{
+    margin-top: 2em;
+}
+
+#requisition-status-key div {
+    margin: 10px;
+}
+
+#requisitionForm .footer{
+    margin: 10px;
+}
+
+.wide {
+    width: 100%;
+}
+fieldset legend{
+  padding: 5px;
+}
+
+.picking-item.odd{
+  background: #eeeeee;
+}
+
+.picking-item{
+  margin: 5px;
+  vertical-align: middle;
+}
+
+blockquote {
+  /*font: 14px/22px normal helvetica, sans-serif;*/
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding-left: 15px;
+  border-left: 3px solid #ccc;
+} 
+
+.modified { color: red; }
+
+.tooltip {
+      position: absolute;
+      width: 100px;
+      height: 20px;
+      line-height: 20px;
+      padding: 10px;
+      font-size: 14px;
+      text-align: center;
+      color: rgb(113, 157, 171);
+      background: rgb(255, 255, 255);
+      border: 4px solid rgb(255, 255, 255);
+      border-radius: 5px;
+      text-shadow: rgba(0, 0, 0, 0.0980392) 1px 1px 1px;
+      box-shadow: rgba(0, 0, 0, 0.0980392) 1px 1px 2px 0px;
+}
+
+.unselectable {
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#requisition-items tbody > tr:nth-child(even)        { background-color: #f7f7f7; }
+#requisition-items tbody > tr:nth-child(odd)        { background-color: #fff; }
+#requisition-items td { padding: 2px; margin: 0}
+#requisition-items input { border: 0}
+#requisition-items tbody > tr:nth-child(odd) input      { background-color: #fff; }
+#requisition-items tbody > tr:nth-child(even) input      { background-color: #f7f7f7; }
+
+table.requisition { border-collapse: collapse; }
+table.requisition td, table.requisition th { padding: 10px; border-right: 1px solid lightgrey; }
+
+.disabled { 
+	pointer-events: none;
+	cursor: default;	
+}
+
+.status { text-transform: uppercase; }
+
+#requisition-items td input[type="text"] {
+     width: 100%; 
+     box-sizing: border-box;
+     -webkit-box-sizing:border-box;
+     -moz-box-sizing: border-box;
+}
+fieldset { padding: 5px; }
